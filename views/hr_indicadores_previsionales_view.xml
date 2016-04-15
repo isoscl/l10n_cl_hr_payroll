@@ -24,6 +24,7 @@
 			<field name="afp_id" string="AFP"/>
 			<field name="aporte_voluntario" string="Aporte Voluntario"/>
 			<field name="mutual_seguridad"/>
+ 			<field name="colacion_opcional"/>
 			<field name="anticipo_sueldo"/>
 			</group>
             	</group>	
@@ -303,6 +304,7 @@
             sequence="10" icon="STOCK_PRINT"
             action="action_salary_books"
             id="menu_salary_books"
+            groups="base.group_hr_manager"
            />
 
         <record id="view_salary_employee_month" model="ir.ui.view">
